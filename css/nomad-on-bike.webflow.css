@@ -1,0 +1,331 @@
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 38px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ff8585;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.headline {
+  font-family: futura-pt-bold, sans-serif;
+}
+
+.body {
+  font-family: futura-pt, sans-serif;
+  color: #404040;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.subhead {
+  color: #b2b2b2;
+  font-size: 38px;
+}
+
+.section-head {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-trip {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.destination {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 72px;
+}
+
+.destination-start {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.destination-direction {
+  padding: 20px 30px 20px 40px;
+}
+
+.destination-end {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bold-text {
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.section-cta {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.cta {
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.section-titleimage {
+  height: 650px;
+  background-color: #7fffd4;
+  background-image: url('../images/Title.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section-text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.grid {
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.bold-text-2 {
+  font-family: futura-pt-bold, sans-serif;
+}
+
+.section-smallcta {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-route {
+  padding-top: 100px;
+  background-image: url('../images/Map.png');
+  background-position: 100% 0%;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.sectionhead {
+  margin-bottom: 50px;
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 72px;
+}
+
+.cities {
+  padding-top: 50px;
+}
+
+.route {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.faq {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq-head {
+  color: #7fffd4;
+}
+
+.name {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: futura-pt-bold, sans-serif;
+  font-size: 24px;
+}
+
+.subname {
+  color: #b2b2b2;
+  font-size: 24px;
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.section-credits {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 20px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .section-route {
+    background-size: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .headline {
+    margin-bottom: 0px;
+  }
+  .subhead {
+    font-size: 28px;
+  }
+  .section-head {
+    padding-bottom: 20px;
+  }
+  .destination-start {
+    font-size: 54px;
+  }
+  .destination-end {
+    font-size: 54px;
+  }
+  .bold-text {
+    font-size: 28px;
+  }
+  .section-titleimage {
+    height: 550px;
+  }
+  .section-route {
+    padding-top: 200px;
+    background-position: 140% 0%;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .profile {
+    padding-bottom: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .column {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .headline {
+    overflow: hidden;
+  }
+  .body {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .subhead {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .destination {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .destination-start {
+    font-size: 58px;
+  }
+  .destination-direction {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .destination-end {
+    font-size: 58px;
+  }
+  .section-date {
+    padding-top: 30px;
+  }
+  .bold-text {
+    font-size: 28px;
+  }
+  .section-titleimage {
+    height: 350px;
+  }
+  .section-route {
+    background-position: 144px -67px;
+  }
+  .sectionhead {
+    margin-bottom: 20px;
+    font-size: 58px;
+  }
+  .section-faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .faq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .faq-head {
+    font-size: 32px;
+  }
+  .profile-pic {
+    margin-top: 20px;
+  }
+  .direction-arrow {
+    width: 30px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .paragraph {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .year {
+    display: none;
+    overflow: visible;
+  }
+}
+
