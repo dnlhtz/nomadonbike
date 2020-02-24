@@ -186,6 +186,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 20px;
   padding-right: 20px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
