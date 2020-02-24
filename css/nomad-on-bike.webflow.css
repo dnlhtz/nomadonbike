@@ -193,13 +193,13 @@ a {
   justify-content: flex-end;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .section-route {
     background-size: 360px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .headline {
     margin-bottom: 0px;
   }
@@ -242,7 +242,7 @@ a {
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .headline {
     overflow: hidden;
   }
